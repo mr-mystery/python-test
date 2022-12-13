@@ -27,4 +27,6 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Testing
+#         env:
+#           AZURE_SECRET_TOKEN: ${{ secrets.TOKEN }}
         run: python ex.py
